@@ -1,0 +1,93 @@
+.button{
+    font-size: 90px;
+    color:red;
+    background-color: white;
+    width:23%;
+    text-align: center;
+    margin:5px 5px 5px 5px;
+    border-radius: 15px;
+    
+}
+#res{
+    font-size: 100px;
+    color:red;
+    background-color: white;
+    width:23%;
+    text-align: center;
+    margin:5px 5px 5px 5px;
+}
+.button:hover{
+    background-color: yellow;
+}
+.center{
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+}
+#ta{
+    text-align: right;
+    height:20;
+    
+}
+.ta-cont{
+    display: flex;
+    justify-content: center;
+}
+#heading{
+    text-align:center;
+    color:rgb(81, 50, 219);
+    font-size: 50px;
+    font-family:'Arial', 'Courier New', Courier,monospace,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#inp{
+    height:20px;
+    margin-bottom: 10px;
+}
+body{
+    background-image: url(calc.jpg);
+    background-color: black;
+}
+.body-cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 850px) and (min-width: 400px){
+    .btn-container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .button{
+        font-size: 3rem;
+        color:red;
+        background-color: white;
+        width:23%;
+        height:80px;
+        text-align: center;
+        margin:5px 5px 5px 5px;
+        border-radius: 5px;
+        
+    }
+    #heading{
+        font-size: 40px;
+    }
+}
+@media (max-width: 400px){
+    .btn-container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .button{
+        font-size: 1rem;
+        color:red;
+        background-color: white;
+        width:23%;
+        height:60px;
+        text-align: center;
+        margin:5px 5px 5px 5px;
+        border-radius: 5px;
+    }
+    #heading{
+        font-size: 20px;
+    }
+}

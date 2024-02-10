@@ -1,6 +1,6 @@
 .button{
-    font-size: 90px;
-    color:red;
+    font-size: 70px;
+    color:#B4B4B8;
     background-color: white;
     width:23%;
     text-align: center;
@@ -10,14 +10,14 @@
 }
 #res{
     font-size: 100px;
-    color:red;
+    /* color:red; */
     background-color: white;
     width:23%;
     text-align: center;
     margin:5px 5px 5px 5px;
 }
-.button:hover{
-    background-color: yellow;
+.button:active{
+    background-color: #F2EFE5;
 }
 .center{
     width:80%;
@@ -35,9 +35,9 @@
 }
 #heading{
     text-align:center;
-    color:rgb(81, 50, 219);
-    font-size: 50px;
-    font-family:'Arial', 'Courier New', Courier,monospace,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#747264;
+    font-size: 70px;
+    font-family:Courier ,Helvetica ,Monospace,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #inp{
     height:20px;
@@ -59,7 +59,6 @@ body{
     }
     .button{
         font-size: 3rem;
-        color:red;
         background-color: white;
         width:23%;
         height:80px;
@@ -79,7 +78,7 @@ body{
     }
     .button{
         font-size: 1rem;
-        color:red;
+        /* color:red; */
         background-color: white;
         width:23%;
         height:60px;
